@@ -1,0 +1,141 @@
+/* styles.css */
+ 
+
+
+/* Define the metallic gold background class */
+.metallic-gold-bg {
+  background-color: #d4af37; /* Use the hexadecimal color code for metallic gold */
+  /* Add any other styles you want for your navbar */
+}
+
+/* Style the links inside the navbar */
+.metallic-gold-bg .navbar-nav .nav-link {
+  color: black; /* Set the link color to black */
+}
+
+/* Change link color on hover */
+.metallic-gold-bg .navbar-nav .nav-link:hover {
+  color: white; /* Change link color to white on hover */
+}
+
+/* Styling the icon */
+.fas {
+  color: #131313; /* Metallic gold */
+  /* Add any additional styles for the icon here */
+}
+
+/* Styling the text */
+
+
+.logo img {
+  max-height: 50px; /* Adjust the maximum height of your logo */
+  /* Add any additional styling you need for your logo */
+}
+
+/* Change the font color of the "Login" link */
+.login-link {
+  color: #0e0e0e; /* Set your desired font color */
+  text-decoration: none; /* Remove the default underline */
+  transition: color 0.3s, text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+/* Add underline on hover */
+.login-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the dropdown button */
+.nav-item.dropdown .nav-link {
+  cursor: pointer;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+  background-color: #fff; /* Background color of the dropdown menu */
+  border: 1px solid #ccc; /* Border around the dropdown menu */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for the dropdown menu */
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+  color: #333; /* Text color of the dropdown items */
+  padding: 10px 20px; /* Padding around the dropdown items */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+
+}
+
+
+
+/* Style the main navigation links */
+nav ul li a {
+  padding: 13px;
+  display: inline-block;
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+  border-bottom: 4px solid #333; /* Add underline on hover */
+}
+
+/* Style the dropdown menu */
+.nav-item.dropdown ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 95%;
+  background-color: rgb(72, 141, 68);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover ul {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Style the dropdown menu items */
+.nav-item.dropdown ul li {
+  width: 100%;
+
+
+/* Define the fade-in animation for dropdowns */
+
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* CSS */
+/* CSS */
+.navbar-logo-small {
+  width: 80px; /* Set the desired width for the logo */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Style for the navigation bar */
+.navbar {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  justify-content: space-between; /* Push items to both ends of the navbar */
+  align-items: center; /* Vertically center items */
+}
+.navbar {
+  height: 45px; /* Adjust the height to your preference */
+}
+
+
+
